@@ -1,14 +1,11 @@
 class Date {
 	public static void main(String[] args) {
-		String day;
-		int date, month, year;
+		String day, month;
+		int date, year;
 		day = "Thursday";
 		date = 1;
-		month = 4;
+		month = "April";
 		year = 2010;
-		System.out.println(day);
-		System.out.println(date);
-		System.out.println(month);
-		System.out.println(year);
+		System.out.printf("%s, %s %d, %d\n",day,month,date,year);
 	}
 }
