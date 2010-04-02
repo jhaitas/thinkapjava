@@ -7,5 +7,6 @@ class Time {
 		System.out.printf("%02d:%02d:%02d\n",hour,minute,second);
 		secondsSinceMidnight = second + (60 * minute) + (3600 * hour);
 		System.out.printf("Seconds since midnight: %d\n",secondsSinceMidnight);
+		System.out.printf("Seconds remaining in the day: %d\n",86400-secondsSinceMidnight);
 	}
 }
